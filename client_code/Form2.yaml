@@ -1,0 +1,43 @@
+components:
+- layout_properties: {grid_position: 'CAWFZE,PYUAOI'}
+  name: headline_1
+  properties:
+    align: center
+    bold: true
+    font_size: 30
+    role: headline
+    spacing:
+      margin: [4, null, 0, null]
+    text: Log In
+    underline: true
+  type: Label
+- layout_properties: {grid_position: 'RHPGWY,MGYNMW'}
+  name: label_1
+  properties: {align: center, bold: true, italic: true, text: E'mail Or User Id}
+  type: Label
+- layout_properties: {grid_position: 'HDAGBY,XXCPGI'}
+  name: text_box_1
+  properties: {align: center, text: Enter Email or User Id}
+  type: TextBox
+- layout_properties: {grid_position: 'EVAHXK,DIYGJY'}
+  name: label_2
+  properties: {align: center, bold: true, italic: true, text: Password}
+  type: Label
+- layout_properties: {grid_position: 'TYRSZB,ZPANHX'}
+  name: text_box_2
+  properties: {align: center, text: Password}
+  type: TextBox
+- layout_properties: {grid_position: 'XYVWSO,FYCMUM'}
+  name: button_1
+  properties: {text: Log IN}
+  type: Button
+- layout_properties: {grid_position: 'FKGBRF,MJBHQU'}
+  name: button_2
+  properties: {align: right, text: forgot Password}
+  type: Button
+- layout_properties: {grid_position: 'KQOQDX,CZSZZG'}
+  name: button_3
+  properties: {align: right, text: New USER}
+  type: Button
+container: {type: ColumnPanel}
+is_package: false
