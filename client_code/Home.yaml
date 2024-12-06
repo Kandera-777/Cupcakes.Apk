@@ -52,4 +52,4 @@ components:
 container:
   properties: {col_widths: '{}'}
   type: ColumnPanel
-is_package: true
+is_package: false
